@@ -1,0 +1,52 @@
+análise e projeto de sistemas sistema de sorveteria online
+    
+     1.introdução
+
+     uma sorveteria deseja expandir suas vendas para o ambiente online, permitindo que os clientes façam pedidos de sorvetes pelo site e escolhas entre retirada local ou entrega atualmente, os pedidos são feitos apenas presencialmente, o que limita a quantidade de clientes atendidos e gera fila no estabelecimento
+
+     2. descrição do problema 
+
+     a sorveteria precisa de um sistema web que permita aos clientes:
+
+ visualizar o catálogo de um sorvetes com imagens preços e descontos
+ montar seu pedido escolhendo os sabores, tamanhos e adicionais
+ escolhe retirada na loja ou entrega (com o cálculo para taxa de entrega)
+ fazer pagamento online via cartão de crédito ou pix
+ criar uma conta para salvar os pedidos anteriores e facilitar novas compras
+
+     os administradores da sorveteria também precisam de funcionários como 
+
+gerenciamento do catálogo de produto (cadastrar, editar e excluir sorvetes)
+controle de pedidos em tempo real podendo atualizar status para “em preparo”, ”pronto para entregar “ ou “a caminho”
+relatórios de vendas estatisticamente de produtos mais vendidos
+
+      3 impacto do problemas 
+ 
+   sem um sistemas online, a sorveteria enfrenta desafios como:
+
+filas e demora no atendimento presencial
+falta de controle automatizado sobre os pedidos 
+dificuldade em analisar vendas e preferências dos clientes
+perda de oportunidade de venda para concorrente que ia possuem sistemas online
+
+      4. requisitos funcionais
+  
+cadastros e login de clientes
+catálogo de produtos dinâmico com imagens e descrições 
+carrinho de compras com opção de personalização de sorvetes 
+pagamento online via cartão de créditos ou pix
+escolhas entre retirada ou entrega com cálculo de taxa 
+notificação de status do pedido
+painel administrativo para gerenciar pedidos e produtos 
+
+      
+
+
+    5. requisitos não funcionais 
+ 
+interface responsiva para o  desktop e mobile
+banco de dados seguros para armazenar informações de clientes 
+para armazenar informação de clientes e pedidos 
+tempo de resposta rápido para navegação fluida 
+integração com APis de pagamentos e mapas para cálculos de
+entregas
